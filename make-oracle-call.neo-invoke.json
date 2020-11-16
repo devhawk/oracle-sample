@@ -1,0 +1,5 @@
+{
+    "contract": "./contract/bin/Debug/netstandard2.1/OracleSample.nef",
+    "operation": "makeOracleCall",
+    "args": []
+}

@@ -3,15 +3,9 @@
   "isRoot": true,
   "tools": {
     "neo.neon": {
-      "version": "3.0.0-monorepo",
+      "version": "3.0.0-CI00199",
       "commands": [
         "neon"
-      ]
-    },
-    "neo.express3": {
-      "version": "1.2.48-insiders-g8fbbbddadb",
-      "commands": [
-        "nxp3"
       ]
     }
   }

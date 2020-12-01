@@ -5,7 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "OracleSample.nef",
+            "name": "makeOracleCall",
+            "type": "neo-contract",
+            "request": "launch",
+            "program": "${workspaceFolder}/contract/bin/Debug/netstandard2.1/OracleSample.nef",
+            "invocation": {
+                "operation": "makeOracleCall",
+                "args": []
+            },
+            "storage": []
+        },
+        {
+            "name": "oracleCallback",
             "type": "neo-contract",
             "request": "launch",
             "program": "${workspaceFolder}/contract/bin/Debug/netstandard2.1/OracleSample.nef",

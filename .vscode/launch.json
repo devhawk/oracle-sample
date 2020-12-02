@@ -24,7 +24,8 @@
                 "oracleResponse": {
                     "url": "fake:somepath.json",
                     "callback": "oracleCallback",
-                    "resultFile": "./response.json"
+                    "filter": "Actors[0]",
+                    "resultFile": "./response.json",
                 }
             },
             "storage": []
